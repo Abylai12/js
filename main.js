@@ -236,19 +236,72 @@
 // }
 // console.log(sum);
 // bodlogo loop 7
-let sum1 = Number(prompt("too oruulna uu"));
-let n = 0;
-n = sum1;
-for (let i = 0; i <= 100; i++) {
-  sum += i;
+// let n = Number(prompt("too oruulna uu"));
+// let number = 123;
+// let negj = number % 10;
+// let aravt = Math.floor((number / 10) % 10);
+// let zuut = Math.floor(number / 100);
+// let i = 0;
+// while (i > 0) {
+//   n = n % 10;
+//   Math.floor(n);
+//   i++;
+// }
+// console.log(negj);
+// console.log(aravt);
+// console.log(zuut);
+// bodlogo loop7
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// while (n > 0) {
+//   let negj = n % 10;
+//   sum += negj;
+//   n = Math.floor(n / 10);
+// }
+// console.log(sum);
+// bodlogo loop8
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// while (n > 0) {
+//   let negj = n % 10;
+//   if (!(negj % 2)) {
+//     sum += negj;
+//   }
+//   n = Math.floor(n / 10);
+// }
+// console.log(sum);
+// bodlogo loop 9 n hurtelh sondgoi too niilver
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// for (let i = 0; i < n; i++) {
+//   if (i % 2) {
+//     console.log(i);
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+// bodlogo loop 10
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// for (let i = 0; i < n; i++) {
+//   if (!(i % 2)) {
+//     console.log(i);
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+// bodlogo loop 11
+let n = Number(prompt("too oruulna uu"));
+let sum = 0;
+let num = 0;
+while (n > 0) {
+  let negj = n % 10;
+  while (negj > 0) {
+    num = num * 10 + negj;
+    sum += negj;
+    negj = Math.floor(negj * 0);
+  }
+  n = Math.floor(n / 10);
 }
-
-let i = 0;
-
-while (i > 0) {
-  n = n % 10;
-  Math.floor(n);
-  // sum += num;
-}
-
+console.log(num);
 console.log(sum);
