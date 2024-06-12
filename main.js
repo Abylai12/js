@@ -1,10 +1,10 @@
 // bodlogo 1
-let myAge = 16;
-if (myAge >= 25) {
-  console.log("above 25");
-} else {
-  console.log("below 25");
-}
+// let myAge = 16;
+// if (myAge >= 25) {
+//   console.log("above 25");
+// } else {
+//   console.log("below 25");
+// }
 //bodlogo 2
 // let n = Number(prompt("too oruulna uu"));
 // if (!(n % 2)) {
@@ -94,79 +94,161 @@ if (myAge >= 25) {
 // }
 // console.log(multiply);
 //bodlogo9
-let a = 12,
-  b = 33,
-  c = 10,
-  d = 12;
-if (a < b && a < c && a < d) {
-  console.log("hamgiin baga ni: ", a);
-} else if (b < a && b < c && b < d) {
-  console.log("hamgiin baga ni: ", b);
-} else if (c < a && c < d && c < b) {
-  console.log("hamgiin baga ni: ", c);
-} else {
-  console.log("hamgiin baga ni: ", d);
-}
-// bodlogo 8
-// let bat = 90,
-//   ochir = 59,
-//   onoo = bat;
-// if (onoo < 60) {
-//   console.log("mash muu");
-// } else if (60 <= onoo && onoo < 70) {
-//   console.log("hangalttai");
-// } else if (70 <= onoo && onoo < 80) {
-//   console.log("Dund");
-// } else if (80 <= onoo && onoo < 90) {
-//   console.log("Sain");
-// } else if (90 <= onoo && onoo < 100) {
-//   console.log("Mash sain");
+// let a = 12,
+//   b = 33,
+//   c = 10,
+//   d = 12;
+// if (a < b && a < c && a < d) {
+//   console.log("hamgiin baga ni: ", a);
+// } else if (b < a && b < c && b < d) {
+//   console.log("hamgiin baga ni: ", b);
+// } else if (c < a && c < d && c < b) {
+//   console.log("hamgiin baga ni: ", c);
 // } else {
-//   console.log("utga oldsongui");
+//   console.log("hamgiin baga ni: ", d);
 // }
-let bat = 90,
-  ochir = 59,
-  onoo = bat;
-if (onoo < 60) {
-  console.log("mash muu");
-} else if (60 <= onoo && onoo < 70) {
-  console.log("hangalttai");
-} else if (70 <= onoo && onoo < 80) {
-  console.log("Dund");
-} else if (80 <= onoo && onoo < 90) {
-  console.log("Sain");
-} else if (90 <= onoo && onoo < 100) {
-  console.log("Mash sain");
-} else {
-  console.log("utga oldsongui");
-}
-// bodlogo 11
+// bodlogo 8
+// let ochir = 59,
+//   onoo = ochir;
+// if (onoo < 60) {
+//   console.log("Ochir unelgee: mash muu", ochir);
+// } else if (60 <= onoo && onoo < 70) {
+//   console.log("Ochir unelgee: hangalttai", ochir);
+// } else if (70 <= onoo && onoo < 80) {
+//   console.log("Ochir unelgee: Dund", ochir);
+// } else if (80 <= onoo && onoo < 90) {
+//   console.log("Ochir unelgee: Sain", ochir);
+// } else if (90 <= onoo && onoo < 100) {
+//   console.log("Ochir unelgee: Mash sain", ochir);
+// } else {
+//   console.log("Ochir unelgee: utga oldsongui", ochir);
+// }
+// let bat = 90,
+//   point = bat;
+// if (point < 60) {
+//   console.log("Bat unelgee: mash muu", bat);
+// } else if (60 <= point && point < 70) {
+//   console.log("Bat unelgee:hangalttai", bat);
+// } else if (70 <= point && point < 80) {
+//   console.log("Bat unelgee:Dund", bat);
+// } else if (80 <= point && point < 90) {
+//   console.log("Bat unelgee:Sain", bat);
+// } else if (90 <= point && point < 100) {
+//   console.log("Bat unelgee:Mash sain", bat);
+// } else {
+//   console.log("Bat unelgee:utga oldsongui", bat);
+// }
+//bodlogo 11
+
+// let hasAdult = Number(prompt("Who has with adult? true=1 or false=0"));
 // let height = Number(prompt("unduruu oruulna uu"));
 // let age = Number(prompt("nasaa oruulna uu"));
-// // let hasAdult = Number(prompt("unduruu oruulna uu"));
-// if (height >= 140 && age >= 14) {
+// if (hasAdult == 1) {
+//   console.log("allowed to ride");
+// } else if (height >= 140 && age >= 14) {
 //   console.log("allowed to ride");
 // } else {
 //   console.log("not allowed to ride");
 // }
 //bodlogo 12
-const x = 7,
-  y = 22,
-  z = 13,
-  v = 30;
-let sum = 0;
-// const x=[7, 22, 13, 30]
-// for ()
-if (x % 11) {
-  sum += x;
+// const x = 7,
+//   y = 22,
+//   z = 13,
+//   v = 30;
+// let sum = 0;
+// // const x=[7, 22, 13, 30]
+// // for ()
+// if (x % 11) {
+//   sum += x;
+// }
+// if (y % 11) {
+//   sum += y;
+// }
+// if (z % 11) {
+//   sum += z;
+// }
+// if (v % 11) {
+//   sum += v;
+// }
+// console.log(sum);
+//bodlogo 10
+// let a = 96,
+//   b = 108,
+//   c = 1200;
+// ave = 0;
+// let d = 96,
+//   f = 108,
+//   g = 30;
+// aveg = 0;
+// ave = (a + b + c) / 3;
+// aveg = (d + f + g) / 3;
+// if (ave >= 100 && aveg >= 100) {
+//   if (ave > aveg) {
+//     console.log("turuulsen bag: A team");
+//   } else if ((ave = aveg)) {
+//     console.log("hoyr bag tentssen");
+//   } else {
+//     console.log("turuulsen bag: B team");
+//   }
+// } else if (ave >= 100 || aveg >= 100) {
+//   if (ave > aveg) {
+//     console.log("turuulsen bag: A team");
+//   } else {
+//     console.log("turuulsen bag: B team");
+//   }
+// } else (ave < 100 || aveg > 100) {
+//   console.log("tentseegui");
+// }
+// bodlogo loop 1
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// bodlogo loop 2
+// for (let i = 0; i < 10; i++) {
+//   // console.log(i);
+//   if (i % 2) {
+//     console.log(i);
+//   } else {
+//   }
+// }
+// bodlogo loop 3
+
+// for (let i = 2; i < 10; i = i + 2) {
+//   console.log(i);
+// }
+// bodlogo loop 4
+// let sum = 0;
+// for (let i = 0; i <= 100; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+// bodlogo loop 5
+// let sum = Number(prompt("too oruulna uu"));
+// for (let i = 0; i <= 100; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+// bodlogo loop 6
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 1;
+// for (let i = 1; i <= n; i++) {
+//   sum *= i;
+// }
+// console.log(sum);
+// bodlogo loop 7
+let sum1 = Number(prompt("too oruulna uu"));
+let n = 0;
+n = sum1;
+for (let i = 0; i <= 100; i++) {
+  sum += i;
 }
-if (y % 11) {
-  sum += y;
+
+let i = 0;
+
+while (i > 0) {
+  n = n % 10;
+  Math.floor(n);
+  // sum += num;
 }
-if (z % 11) {
-  sum += z;
-}
-if (v % 11) {
-  sum += v;
-}
+
 console.log(sum);
