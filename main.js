@@ -291,17 +291,148 @@
 // }
 // console.log(sum);
 // bodlogo loop 11
-let n = Number(prompt("too oruulna uu"));
-let sum = 0;
-let num = 0;
-while (n > 0) {
-  let negj = n % 10;
-  while (negj > 0) {
-    num = num * 10 + negj;
-    sum += negj;
-    negj = Math.floor(negj * 0);
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// let num = 0;
+// while (n > 0) {
+//   let negj = n % 10;
+//   n = (n - negj) / 10;
+//   num = num * 10 + negj;
+// while (negj > 0) {
+//   num = num * 10 + negj;
+//   sum += negj;
+//   negj = negj * 0;
+// }
+// n = Math.floor(n / 10);
+//   sum += negj;
+// }
+// console.log(num);
+// console.log(sum);
+
+// bodlogo loop7
+// let n = Number(prompt("too oruulna uu"));
+// let sum = 0;
+// while (n > 0) {
+//   let negj = n % 10;
+//   n = (n - negj) / 10;
+//   sum += negj;
+// }
+// console.log(sum);
+
+// bodlogo array 1
+// let sum = 0;
+// let fruits = ["apple", "banana", "orange", "kiwi", "grape"];
+// for (let i = 0; i < 5; i = i + 2) {
+//   sum = fruits[i];
+//   console.log(sum);
+// }
+
+// bodlogo array 2 1 sondgooi too
+// let num = 0;
+// let fruits = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
+// for (let i = 0; i < fruits.length; i++) {
+//   let sum = fruits[i];
+//   if (!(sum % 2)) {
+//     num++;
+//   }
+// }
+// console.log(num);
+
+// bodlogo array 2 1 tegsh too
+// let num = 0;
+// let fruits = [5, 6, 4, 12, 19, 121, 1, 7, 9, 63];
+// for (let i = 0; i < fruits.length; i++) {
+//   let sum = fruits[i];
+//   if (sum % 2) {
+//     num++;
+//   }
+// }
+// console.log(num);
+//bodlogo array 3 1
+// let num = 0;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 11];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   num++;
+// }
+// console.log(num);
+
+//bodlogo array 3 2
+// let num = 0;
+// let sum = 0;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   let num = arrayOfNumbers[i];
+//   sum += num;
+// }
+// console.log(sum);
+
+//bodlogo array 3 3
+
+// let num = 0;
+// let sum = 0;
+// let avg = 0;
+// let total = 0;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   let num = arrayOfNumbers[i];
+//   sum += num;
+//   avg++;
+//   total = sum / avg;
+// }
+// console.log(total);
+
+//bodlogo array 3 4 sondgoi toonii niilver
+// let num = 0;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   let sum = arrayOfNumbers[i];
+//   if (sum % 2) {
+//     num += sum;
+//   }
+// }
+// console.log(num);
+
+//bodlogo array 3 5  tegsh toonii niilver
+// let num = 0;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   let sum = arrayOfNumbers[i];
+//   if (!(sum % 2)) {
+//     num += sum;
+//   }
+// }
+// console.log(num);
+
+//bodlogo array 3 6  sondgoi toonii urjver
+
+// let num = 1;
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   let sum = arrayOfNumbers[i];
+//   if (sum % 2) {
+//     num *= sum;
+//   }
+// }
+// console.log(num);
+
+//bodlogo array 3 7  hamgiin ih toog ol
+
+// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+// let max = arrayOfNumbers[0];
+// for (let i = 0; i < arrayOfNumbers.length; i++) {
+//   if (arrayOfNumbers[i] > max) {
+//     max = arrayOfNumbers[i];
+//   }
+// }
+// console.log(max);
+
+//bodlogo array 3 7  hamgiin baga toog ol
+
+let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 13];
+let max = arrayOfNumbers[0];
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+  if (arrayOfNumbers[i] < max) {
+    max = arrayOfNumbers[i];
   }
-  n = Math.floor(n / 10);
 }
-console.log(num);
-console.log(sum);
+console.log(max);
